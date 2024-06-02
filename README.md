@@ -38,6 +38,11 @@ This is my first app - a simple Hangman game built with React.
 - You win the game if you guess the word or phrase correctly before the hangman is complete.
 - You lose the game if the hangman is complete before you guess the word or phrase.
 
+| ![Win Image](win.png) | ![Game Over Image](gameover.png) |
+|:---:|:---:|
+| *Win Image* | *Game Over Image* |
+
+
 Enjoy playing Hangman!
 
 ## License
