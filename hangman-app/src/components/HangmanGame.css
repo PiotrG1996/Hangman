@@ -1,0 +1,87 @@
+.HangmanGame {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#phraseDisplay {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+#gallows {
+  margin: 20px 0;
+}
+
+#alphabet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.letter {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 40px;
+  text-align: center;
+}
+
+.reset {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+#alphabet .letter:hover {
+  background-color: #ccc;
+}
+
+.input {
+  border: none;
+  padding: 2rem; /* Increase padding for a much bigger input */
+  border-radius: 1rem 0 0 1rem; /* Keep the left side rounded */
+  background: #e8e8e8;
+  box-shadow: 20px 20px 60px #c5c5c5,
+              -20px -20px 60px #ffffff;
+  transition: 0.3s;
+  margin-bottom: 20px; /* Add margin between input and button */
+}
+
+.input:focus {
+  outline-color: #e8e8e8;
+  background: #e8e8e8;
+  box-shadow: inset 20px 20px 60px #c5c5c5,
+              inset -20px -20px 60px #ffffff;
+  transition: 0.3s;
+}
+
+.button {
+  border: none;
+  padding: 2rem; /* Increase padding for a much bigger button */
+  border-radius: 0 1rem 1rem 0; /* Keep the right side rounded */
+  background: #e8e8e8;
+  box-shadow: 20px 20px 60px #c5c5c5,
+              -20px -20px 60px #ffffff;
+  transition: 0.3s;
+  cursor: pointer; /* Add cursor pointer */
+}
+
+.button:hover {
+  background: #e8e8e8;
+  box-shadow: inset 20px 20px 60px #c5c5c5,
+              inset -20px -20px 60px #ffffff;
+  transition: 0.3s;
+}
+
+
+
