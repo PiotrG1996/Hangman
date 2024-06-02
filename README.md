@@ -7,7 +7,7 @@ This is my first app - a simple Hangman game built with React.
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/PiotrG1996/hangman-game.git
+    git clone https://github.com/PiotrG1996/Hangman/tree/main
     ```
 
 2. **Navigate to the project directory:**
